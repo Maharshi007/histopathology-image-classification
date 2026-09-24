@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Model checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Experiment outputs
+results/predictions/
+results/metrics/
+results/figures/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
