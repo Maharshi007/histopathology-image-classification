@@ -18,16 +18,15 @@ data/
 *.tar.gz
 
 # Model checkpoints
-checkpoints/*
-!checkpoints/.gitkeep
+checkpoints/
+results/checkpoints/
 
-# Experiment outputs
-results/predictions/
-results/metrics/
-results/figures/
-
-# Logs
+# Experiment logs
+results/logs/
 *.log
+
+# Learning / temporary files
+results/pylesson.py
 
 # IDE
 .vscode/
@@ -36,3 +35,11 @@ results/figures/
 # OS
 .DS_Store
 Thumbs.db
+
+# Temporary dataset inspection / visualization scripts
+extract_pcam.py
+inspect_labels.py
+inspect_pcam.py
+test_dataset.py
+visualize_center.py
+visualize_pcam.py
